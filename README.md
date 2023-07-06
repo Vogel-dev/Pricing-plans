@@ -7,11 +7,13 @@
 </div>
 
 ### Desktop
-<img width="1432" alt="Zrzut ekranu 2023-07-6 o 15 28 55" src="https://github.com/Vogel-dev/Pricing-plans/assets/60361545/f01722b7-de60-49c5-a031-96af6a3d62c9">
+<img width="1332" alt="Zrzut ekranu 2023-07-6 o 15 28 55" src="https://github.com/Vogel-dev/Pricing-plans/assets/60361545/f01722b7-de60-49c5-a031-96af6a3d62c9">
 
 ### Tablet
 
-![Zrzut ekranu 2023-07-6 o 15 30 53](https://github.com/Vogel-dev/Pricing-plans/assets/60361545/06bf9ec2-9b6e-4658-9f89-c1324c36d75c)
+<img width="555" alt=" " src="https://github.com/Vogel-dev/Pricing-plans/assets/60361545/95f52a65-ff12-49b0-bb80-fdea8ac9a140">
 
 ### Mobile
-<img width="425" alt="Zrzut ekranu 2023-07-6 o 15 51 05" src="https://github.com/Vogel-dev/Pricing-plans/assets/60361545/47bf8e9a-2fa9-4a8e-8205-84768967da77">
+
+<img width="425" src="https://github.com/Vogel-dev/Pricing-plans/assets/60361545/ca8746fa-9cb1-47a3-a79f-7c6b9c781715">
+
