@@ -6,14 +6,25 @@
 
 body {
   background: #F9F8FB;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.pricing-plans {
-  margin-top: 50px;
+.pricing-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+
+.pricing-plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  gap: 12px;
 }
 
 .pricing-info {
@@ -42,11 +53,16 @@ body {
 .plan {
   margin-top: 48px;
   width: 324px;
-  height: 414px;
+  height: 434px;
   border-radius: 24px;
   border: 1px solid #E2E8EB;
   background-color: #ffffff;
   position: relative;
+}
+
+.plan-awarded {
+  background-color: #14132B;
+  color: #ffffff;
 }
 
 .plan-title {
@@ -55,6 +71,10 @@ body {
   font-weight: 600;
   letter-spacing: -0.72px;
   margin: 32px 0px 8px 32px;
+}
+
+.title-awarded {
+  color: #ffffff;
 }
 
 .plan-pricing {
@@ -118,9 +138,29 @@ ul {
   padding: 16px 0px;
 }
 
+.btn-awarded {
+  background: #7863F9;
+}
+
 .btn-content {
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.14px;
+}
+
+.btn:hover {
+  background: #393850;
+}
+
+.btn:active {
+  background: #060613;
+}
+
+.btn-awarded:hover {
+  background: #9180FF;
+}
+
+.btn-awarded:active {
+  background: #6A53F4;
 }

@@ -5,6 +5,11 @@ $primary: #14132B;
 $secondary: #7863F9;
 $checklist: #EE9C50;
 $border: #E2E8EB;
+//Buttons variables
+$hover-primary: #393850;
+$hover-secondary: #9180FF;
+$pressed-primary: #060613;
+$pressed-secondary: #6A53F4;
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap');
 
@@ -15,14 +20,26 @@ $border: #E2E8EB;
 
 body {
     background: $bg ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
 }
 
-.pricing-plans {
-    margin-top: 50px;
+.pricing-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    gap: 12px;
 }
 
 .pricing-info {
@@ -51,11 +68,16 @@ body {
 .plan {
     margin-top: 48px;
     width: 324px;
-    height: 414px;
+    height: 434px;
     border-radius: 24px;
     border: 1px solid $border;
     background-color: $btn-bg;
     position: relative;
+}
+
+.plan-awarded {
+    background-color: $primary;
+    color: $btn-bg;
 }
 
 .plan-title {
@@ -64,6 +86,10 @@ body {
     font-weight: 600;
     letter-spacing: -0.72px;
     margin: 32px 0px 8px 32px;
+}
+
+.title-awarded {
+    color: $btn-bg;
 }
 
 .plan-pricing {
@@ -127,9 +153,29 @@ ul {
     padding: 16px 0px;
 }
 
+.btn-awarded {
+    background: $secondary;
+}
+
 .btn-content {
     color: $btn-bg;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: -0.14px;
+}
+
+.btn:hover {
+    background: $hover-primary;
+}
+
+.btn:active {
+    background: $pressed-primary;
+}
+
+.btn-awarded:hover {
+    background: $hover-secondary;
+}
+
+.btn-awarded:active {
+    background: $pressed-secondary;
 }
