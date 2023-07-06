@@ -164,3 +164,64 @@ ul {
 .btn-awarded:active {
   background: #6A53F4;
 }
+
+@media screen and (max-width: 1075px) and (min-width: 605px) {
+  body {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    transform: translate(0%, 0%);
+  }
+  .pricing-nav {
+    margin: 48px 0px 48px 0px;
+  }
+  .pricing-plans {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+  .plan {
+    margin-top: 0px;
+    width: 90%;
+    height: 278px;
+  }
+  .plan-pricing {
+    margin: 0px 0px 8px 32px;
+    right: 32px;
+    top: 32px;
+    position: absolute;
+  }
+  .plan-content {
+    max-width: 250px;
+  }
+  .btn {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  body {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    transform: translate(0%, 0%);
+  }
+  .pricing-nav {
+    margin: 48px 0px 48px 0px;
+  }
+  .pricing-plans {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+  .plan {
+    margin-top: 0px;
+    width: 90%;
+    height: 435px;
+  }
+  .plan-content {
+    max-width: 250px;
+  }
+  .btn {
+    width: 85%;
+    margin: 32px;
+  }
+}
